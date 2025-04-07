@@ -1,0 +1,36 @@
+.five9-chat-button{
+  background: #2D2685ff !important;
+  border: none;
+  cursor: pointer;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  transition: background-color 0.3s ease;
+  padding: auto !important;
+  width: 260px !important;
+}
+
+.five9-text{
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 0px !important;
+  margin-left: 10px !important;
+  color: white;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.five9-chat-button .five9-icon {
+display: inline-block;
+position: absolute;
+left: 6px;
+top: 6px;
+width: 30px;
+height: 30px;
+background-color: white; /* Add white background */
+border-radius: 50%; /* Make the button round */
+padding: 6px; /* Add padding to show white space around the image */
+background-image: url("https://www.ers.org.sz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FERS_Logo.f77d9db5.png&w=128&q=75") !important;
+background-repeat: no-repeat;
+background-size: contain; /* Adjust background-size to fit image within padding */
+background-position: center center;
+}
